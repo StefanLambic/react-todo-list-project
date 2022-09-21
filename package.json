@@ -1,9 +1,5 @@
 {
-<<<<<<< Updated upstream
-  "homepage" :"https://stefanlambic.github.io/react-todo-list-project",
-=======
-  "homepage": "https://stefanlambic.github.io/react-todo-list-project/",
->>>>>>> Stashed changes
+ "homepage": "https://stefanlambic.github.io/react-todo-list-project/",
   "name": "todo-react",
   "version": "0.1.0",
   "private": true,
