@@ -15,6 +15,7 @@ export default function App() {
       taskName: newTask,
       completed: false,
     };
+
     setTodoList([...todoList, task]);
   };
 
@@ -35,8 +36,11 @@ export default function App() {
 
   return (
     <div className="Home">
+      <div className="title-holder">
+        <h1>Organize your day!</h1>
+      </div>
       <div className="addTask">
-        <input onChange={handleChange} />
+        <input placeholder="Enter your task..." onChange={handleChange} />
         <button onClick={addTask}>Add Task</button>
       </div>
       <div className="list">
